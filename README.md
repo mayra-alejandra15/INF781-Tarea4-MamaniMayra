@@ -79,15 +79,6 @@ Las claves se almacenaron únicamente en .env para evitar exposición de secreto
 Las pruebas automatizadas usan Http::fake() para simular respuestas reales del proveedor sin depender de internet.
 
 ---
-
-# Capturas
-
-Agregar capturas en:
-
-```text
-/docs/screenshots/
-```
-
 * Login correcto
 * CAPTCHA inválido
 * Error de validación
@@ -166,13 +157,13 @@ Para evitar exponer secretos en GitHub.
 
 # 18. Puntos importantes para sacar buena nota
 
-✔ Laravel 13
-✔ PostgreSQL
-✔ Breeze
-✔ CAPTCHA alternativo
-✔ Validación server-side
-✔ Rule separada
-✔ Tests PHPUnit
-✔ README completo
+Laravel 13
+PostgreSQL
+Breeze
+CAPTCHA alternativo
+Validación server-side
+Rule separada
+Tests PHPUnit
+README completo
 ✔ Secretos en .env
 ✔ Código limpio
